@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+@model IEnumerable<WebApplication1.Models.Monitorr>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Polling</title>
+</head>
+<body>
+    <div>
+        <h1>Polling</h1>
+    </div>
+    <div>       
+        @Html.ActionLink("Reset", "Index", "", new { @class = "btn btn-sm btn-primary" })
+        @if (Model != null)
+        {
+            <table>
+
+                <tr><th>Content<th><th>Date Time<th></tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr><td> @Html.DisplayFor(modelItem => item.Content)<td><td> @Html.DisplayFor(modelItem => item.DateTime)<td></tr>
+                }
+
+            </table>
+        }
+    </div>
+</body>
+</html>
