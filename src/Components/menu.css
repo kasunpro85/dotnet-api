@@ -1,0 +1,35 @@
+.menuImage {
+	border-radius: 8px;
+	max-width: 340px;
+	max-height: 320px;
+}
+
+.menuContainer {
+  margin-bottom: 20px;
+}
+
+.form-btni {
+	display: inline-block;
+	width: 100%; 
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #ffab00;
+	border: 1px solid transparent;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+	transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+   }
+   
+   .form-btni:focus, .form-btn:hover {
+	background-color: #ffc142;
+	box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+   }
