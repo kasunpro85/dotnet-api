@@ -11,7 +11,7 @@
     "react-dom": "^16.10.1",
     "react-modal-image": "^2.5.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "reactjs-popup": "^1.5.0",
     "reactstrap": "^9.1.3"
   },
